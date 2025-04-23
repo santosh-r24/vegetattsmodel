@@ -22,3 +22,5 @@ WORKDIR /app
 
 # This is where HF mounts your model repo with handler.py and model files
 ENV INFERENCE_SERVER_HOME=/repository
+
+EXPOSE 80
